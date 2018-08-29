@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource name="bibliotheque3"
+             auth="Container"
+             type="javax.sql.DataSource"
+             username="root"
+             password="System84"
+             driverClassName="com.mysql.jdbc.Driver"
+             url="jdbc:mysql://localhost:3306/bibliotheque3"/>
+ 
+    <!-- Specify the security realm and location of the users file
+   <Realm className="org.apache.catalina.realm.MemoryRealm"
+          pathname="/tomcat/webapps/ROOT/WEB-INF/users.xml" />
+   -->
+</Context>
